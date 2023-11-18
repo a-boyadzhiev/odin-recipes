@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(images/cook-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    backdrop-filter: blur(4px);
+}
+
+
+div{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    background-color: white;
+    width: fit-content;
+}
+
