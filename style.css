@@ -3,7 +3,17 @@ body {
     background-image: url(images/cook-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 0px;
+
     
+}
+
+div {
+    margin: auto;
+    margin-top: 0px;
+    background-color: none;
+    width: fit-content;
+    border-radius: 15px;
 }
 
 h1 {
@@ -11,16 +21,44 @@ h1 {
     text-align: center;
     color: white;
     font-weight: bolder;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 
-div{
+.box-links{
     font-size: 35px;
     text-align: center;
     color: white;
-    margin: 50px;
     background-color: white;
     width: fit-content;
+    padding: 15px;
+    display: flex;
 }
 
+.link-1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    border: 5px;
+    border-color: white;
+    border-radius: 15px;
+    margin: 4px 8px;
+    text-decoration: none;
+    
+}
+
+.link-1:hover{
+    transform: scale(1.05);
+}
+
+a:link:link{
+    text-decoration: none;
+}
+
+img{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
